@@ -1,0 +1,36 @@
+{
+  "name": "example-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server  --config webpack.dev.js --open"
+  },
+  "keywords": [],
+  "author": "Alaa Sayed",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.14.5",
+    "bootstrap": "^5.1.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.5.4",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^5.1.2",
+    "html-webpack-plugin": "^3.2.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
